@@ -1,11 +1,16 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function Dicitonary() {
   let [words, setWords] = useState("");
 
+  function handleSubmit(response) {
+    console.log(response.data);
+  }
   function Search(event) {
     event.preventDefault();
-    alert(`Searching for ${words}`);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${words}`;
+    axios.get(apiUrl).then(handleSubmit);
   }
 
   function keywordChange(event) {
