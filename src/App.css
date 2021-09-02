@@ -8,3 +8,8 @@
   font-style: italic;
   font-weight: 900;
 }
+P {
+  text-align: center;
+  font-family: monospace;
+  color: chocolate;
+}
