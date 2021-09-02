@@ -1,11 +1,15 @@
 import React, { useState } from "react";
+import Output from "./Output";
+import "./Meaning.css";
 import axios from "axios";
 
 export default function Dicitonary() {
   let [words, setWords] = useState("");
+  let [output, setOutput] = useState(null);
 
   function handleSubmit(response) {
-    console.log(response.data);
+    //console.log(response.data[0].meanings[0].definitions[0].definition);
+    setOutput(response.data[0]);
   }
   function Search(event) {
     event.preventDefault();
@@ -22,6 +26,7 @@ export default function Dicitonary() {
       <form onSubmit={Search}>
         <input type="search" onChange={keywordChange} />
       </form>
+      <Output output={output} />
     </div>
   );
 }
