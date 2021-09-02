@@ -9,6 +9,7 @@ export default function Dicitonary() {
   }
   function Search(event) {
     event.preventDefault();
+    //api:https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${words}`;
     axios.get(apiUrl).then(handleSubmit);
   }
