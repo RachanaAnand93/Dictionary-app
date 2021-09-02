@@ -1,8 +1,10 @@
 .App {
-  background-color: rosybrown;
+  background-color: thistle;
   text-align: center;
 }
 .App-header {
-  font-family: fantasy;
+  font-family: monospace;
+  font-size: 30px;
   font-style: italic;
+  font-weight: 900;
 }
