@@ -5,7 +5,7 @@ export default function Output(props) {
   console.log(props.output);
   if (props.output) {
     return (
-      <div className="output">
+      <div className="mb-5 mt-5 output">
         <h2>{props.output.word}</h2>
         {props.output.meanings.map(function (meaning, index) {
           return (
