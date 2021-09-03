@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">📚 DICTIONARY</header>
       <Dictionary />
-      <p>
+      <footer className="App-footer">
         <a
           href="https://github.com/RachanaAnand93/Dictionary-app"
           target="_blank"
@@ -14,7 +14,7 @@ function App() {
           Open-source code
         </a>
         , by Rachana Anand
-      </p>
+      </footer>
     </div>
   );
 }

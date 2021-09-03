@@ -1,51 +1,29 @@
 .App {
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
-  );
-  text-align: center;
+  background-image: url("https://drive.google.com/file/d/1RCJMyQICA2u1un0i0qcvWyOpYXSWQvKz/view?usp=sharing");
+  text-align: left;
+  margin-left: 10px;
 }
 .App-header {
   font-family: monospace;
   font-size: 30px;
   font-style: italic;
   font-weight: 900;
-  color: rgb(46, 132, 207);
+  color: gray;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+.App-footer {
+  color: grey;
   text-align: center;
 }
-P {
+
+.Dicitionary form {
   text-align: center;
-  font-family: monospace;
-  color: rgb(46, 132, 207);
+  padding: 10px;
+  margin: 20px auto;
 }
-a {
-  color: rgb(46, 132, 207);
-}
-.Meaning p {
-  color: black;
-  padding: 1px;
-  margin-top: -10px;
-  font-size: 15px;
-  font-weight: 400;
-  text-align: left;
-  font-family: sans-serif;
-}
-.Meaning h1,
-h2,
-h3,
-p:first-letter {
-  text-transform: capitalize;
-}
-h1,
-h2,
-h3 {
-  font-style: italic;
-  margin-left: 0px;
-  color: black;
-  font-size: 18px;
+.phonetics {
+  margin-left: 10px;
   text-align: left;
 }

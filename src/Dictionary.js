@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Output from "./Output";
-import "./Meaning.css";
 import axios from "axios";
 
 export default function Dicitonary() {
@@ -23,9 +22,11 @@ export default function Dicitonary() {
   }
   return (
     <div className="Dicitionary">
-      <form onSubmit={Search}>
-        <input type="search" onChange={keywordChange} />
-      </form>
+      <section>
+        <form onSubmit={Search}>
+          <input type="search" onChange={keywordChange} />
+        </form>
+      </section>
       <Output output={output} />
     </div>
   );

@@ -7,13 +7,16 @@ export default function Output(props) {
   if (props.output) {
     return (
       <div className="output">
-        <h2>{props.output.word}</h2>
-        <Phonetic phonetic={props.output.phonetics} />
+        <section>
+          <h2>{props.output.word}</h2>
+          <Phonetic phonetic={props.output.phonetics} />
+        </section>
+
         {props.output.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meaning meaning={meaning} />{" "}
-            </div>
+            </section>
           );
         })}
       </div>

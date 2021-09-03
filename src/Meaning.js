@@ -1,22 +1,23 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import "./Meaning.css";
 
 export default function Meaning(props) {
   console.log(props.meaning);
   return (
-    <div className="Meaning">
+    <section className="Meaning">
       <h3>{props.meaning.partOfSpeech}:</h3>
       {props.meaning.definitions.map(function (definition, index) {
         return (
-          <div key={index}>
+          <section key={index}>
             <p>
               {definition.definition} <br />
               <strong>Example:</strong> {definition.example}
               <Synonyms synonym={definition.synonyms} />
             </p>
-          </div>
+          </section>
         );
       })}
-    </div>
+    </section>
   );
 }
