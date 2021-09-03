@@ -1,6 +1,7 @@
 .App {
   background: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
   font-family: "Open Sans Condensed", sans-serif;
+  font-size: 15px;
 }
 .App-header {
   font-family: "Hina Mincho", serif;
@@ -68,5 +69,6 @@
 }
 .synonyms li {
   display: inline-block;
-  padding: 2px;
+  padding-right: 2px;
+  line-height: 0px;
 }
