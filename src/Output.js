@@ -1,12 +1,14 @@
 import React from "react";
 import Meaning from "./Meaning";
+import Phonetic from "./Phonetic";
 import "./Meaning.css";
 export default function Output(props) {
   console.log(props.output);
   if (props.output) {
     return (
-      <div className="mb-5 mt-5 output">
+      <div className="output">
         <h2>{props.output.word}</h2>
+        <Phonetic phonetic={props.output.phonetics} />
         {props.output.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
