@@ -19,6 +19,9 @@
   font-size: 18px;
   font-style: italic;
 }
+.App-footer a {
+  color: whitesmoke;
+}
 
 .Dicitionary form {
   text-align: center;
