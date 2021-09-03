@@ -6,7 +6,7 @@ export default function Output(props) {
   console.log(props.output);
   if (props.output) {
     return (
-      <div className="output">
+      <div className="output-id">
         <section>
           <h2>{props.output.word}</h2>
           <Phonetic phonetic={props.output.phonetics} />

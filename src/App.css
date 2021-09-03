@@ -1,26 +1,40 @@
 .App {
-  background-image: url("https://github.com/RachanaAnand93/Dictionary-app/blob/main/wood-panels-texture-minimalism-wallpaper-preview.jpeg?raw=true");
-  text-align: left;
+  background: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  font-family: "Open Sans Condensed", sans-serif;
 }
 .App-header {
-  font-family: monospace;
+  font-family: "Hina Mincho", serif;
   font-size: 30px;
   font-style: italic;
   font-weight: 900;
-  color: white;
+  color: darkslateblue;
+
   text-align: center;
   padding: 20px;
-  margin: 10px;
 }
 .App-footer {
-  color: grey;
+  color: whitesmoke;
   text-align: center;
+  font-size: 18px;
 }
 
 .Dicitionary form {
   text-align: center;
+  display: block;
   padding: 10px;
-  margin: 20px auto;
+  margin: 0px auto;
+  border-radius: 40px;
+}
+.Dicitionary input {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.phonetics {
+  text-align: left;
+  color: black;
   background: linear-gradient(
     to top,
     lightgrey 0%,
@@ -30,14 +44,29 @@
     #d9d9d9 75%,
     #bcbcbc 100%
   );
-  width: fit-content;
-  border-radius: 20px;
-  padding-left: 2px;
+  padding-top: 12px;
+  padding-bottom: 10px;
   margin: 30px;
+  border-radius: 20px;
+  padding-left: 8px;
   box-shadow: 3px 3px 3px 0px whitesmoke;
 }
+.phonetics a {
+  border-radius: 20px;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: all 120ms ease-in-out;
+  background-color: rgb(163, 158, 158);
+  color: black;
+}
 
-.phonetics {
-  margin-left: 10px;
-  text-align: left;
+.phonetics a:hover {
+  background-color: grey;
+  color: white;
+}
+.synonyms li {
+  display: inline-block;
+  padding: 2px;
 }

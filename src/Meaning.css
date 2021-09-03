@@ -24,7 +24,7 @@ h3 {
   color: white;
   font-size: 18px;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 35px;
   padding-left: 5px;
 }
 .Meaning section {
@@ -37,9 +37,13 @@ h3 {
     #d9d9d9 75%,
     #bcbcbc 100%
   );
-  background-size: cover;
+  background-size: 80px;
   border-radius: 20px;
   padding-left: 2px;
-  margin: 30px;
+  margin: 15px 30px;
   box-shadow: 3px 3px 3px 0px whitesmoke;
+}
+.example {
+  color: gray;
+  margin-top: 8px;
 }

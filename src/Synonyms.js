@@ -8,8 +8,8 @@ export default function Synonyms(props) {
         <ul className="synonyms">
           {props.synonym.map(function (synonym, index) {
             return (
-              <li className="d-inline-block pe-3" key={index}>
-                {synonym},
+              <li key={index}>
+                {synonym},{""}
               </li>
             );
           })}
