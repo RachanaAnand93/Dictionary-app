@@ -1,5 +1,9 @@
 .App {
-  background: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 213, 214) 0%,
+    rgb(243, 242, 229) 90%
+  );
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 15px;
 }

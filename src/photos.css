@@ -5,7 +5,11 @@
 }
 section {
   border: 2px gray solid;
-  background: linear-gradient(45deg, #a3a7a7 0%, #bea6b2 90%);
+  background: radial-gradient(
+    321px at 8.3% 75.7%,
+    rgb(221, 221, 221) 0%,
+    rgb(249, 213, 213) 80%
+  );
   padding: 10px;
   margin: 30px;
   border-radius: 10px;
