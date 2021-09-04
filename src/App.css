@@ -5,10 +5,10 @@
 }
 .App-header {
   font-family: "Hina Mincho", serif;
-  font-size: 30px;
+  font-size: 35px;
   font-style: italic;
   font-weight: 900;
-  color: darkslateblue;
+  color: #346357;
 
   text-align: center;
   padding: 20px;
@@ -59,7 +59,7 @@
 .phonetics a {
   border-radius: 20px;
   border: 1px solid gainsboro;
-  padding: 10px;
+  padding: 3px 6px 2px 7px;
   margin-top: 10px;
   text-decoration: none;
   transition: all 120ms ease-in-out;

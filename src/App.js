@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">📚 DICTIONARY</header>
-      <Dictionary defaultwords="ocean" />
+      <Dictionary defaultwords="Ocean" />
       <footer className="App-footer">
         <a
           href="https://github.com/RachanaAnand93/Dictionary-app"
