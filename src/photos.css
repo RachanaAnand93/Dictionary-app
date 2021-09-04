@@ -1,5 +1,13 @@
 .photos {
   border-radius: 8px;
   padding: 5px;
-  width: 80%;
+  width: 90%;
+}
+section {
+  border: 2px gray solid;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 3px 0px rgba(245, 245, 245, 0.658);
 }

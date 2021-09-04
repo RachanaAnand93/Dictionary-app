@@ -8,15 +8,17 @@ export default function Output(props) {
     return (
       <div className="output-id">
         <section>
-          <h2>{props.output.word}</h2>
+          <h2>
+            <strong> {props.output.word} </strong>{" "}
+          </h2>
           <Phonetic phonetic={props.output.phonetics} />
         </section>
 
         {props.output.meanings.map(function (meaning, index) {
           return (
-            <section key={index}>
+            <div key={index}>
               <Meaning meaning={meaning} />{" "}
-            </section>
+            </div>
           );
         })}
       </div>

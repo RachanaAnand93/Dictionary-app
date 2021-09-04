@@ -1,13 +1,9 @@
 .Meaning p {
   color: black;
-  padding-left: 5px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   text-align: left;
   font-family: sans-serif;
-  margin: 15px;
-  padding-top: 12px;
-  padding-bottom: 10px;
 }
 .Meaning h1,
 h2,
@@ -20,30 +16,13 @@ h1,
 h2,
 h3 {
   font-style: italic;
-  margin-left: 10px;
-  color: white;
+  color: black;
   font-size: 22px;
   text-align: left;
-  margin-left: 35px;
 }
-.Meaning section {
-  background: linear-gradient(
-    to top,
-    lightgrey 0%,
-    lightgrey 1%,
-    #e0e0e0 26%,
-    #efefef 48%,
-    #d9d9d9 75%,
-    #bcbcbc 100%
-  );
-  box-sizing: border-box;
-  border-radius: 20px;
 
-  margin: 15px 30px;
-  box-shadow: 3px 3px 3px 0px whitesmoke;
-}
 .example {
-  color: gray;
+  color: rgb(88, 88, 87);
   margin-top: 8px;
 }
 h4 {

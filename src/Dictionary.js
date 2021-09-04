@@ -43,15 +43,14 @@ export default function Dicitonary(props) {
   if (loaded) {
     return (
       <div className="Dicitionary">
-        <section>
-          <form onSubmit={handleClick}>
-            <input
-              type="search"
-              onChange={keywordChange}
-              placeholder="Enter a word to search..."
-            />
-          </form>
-        </section>
+        <form onSubmit={handleClick}>
+          <input
+            type="search"
+            onChange={keywordChange}
+            placeholder="Enter a word to search..."
+          />
+        </form>
+
         <Output output={output} />
         <Images images={photos} />
       </div>

@@ -27,11 +27,10 @@
   text-align: center;
   display: block;
   padding: 10px;
-  margin: 0px auto;
   border-radius: 40px;
 }
 .Dicitionary input {
-  width: 30%;
+  width: 40%;
   border: 1px solid #ccc;
   border-radius: 15px;
   padding: 8px;
@@ -40,21 +39,6 @@
 .phonetics {
   text-align: left;
   color: black;
-  background: linear-gradient(
-    to top,
-    lightgrey 0%,
-    lightgrey 1%,
-    #e0e0e0 26%,
-    #efefef 48%,
-    #d9d9d9 75%,
-    #bcbcbc 100%
-  );
-  padding-top: 12px;
-  padding-bottom: 10px;
-  margin: 30px;
-  border-radius: 20px;
-  padding-left: 8px;
-  box-shadow: 3px 3px 3px 0px whitesmoke;
 }
 .phonetics a {
   border-radius: 20px;
