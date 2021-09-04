@@ -18,13 +18,13 @@
   padding: 20px;
 }
 .App-footer {
-  color: whitesmoke;
+  color: grey;
   text-align: center;
   font-size: 18px;
   font-style: italic;
 }
 .App-footer a {
-  color: whitesmoke;
+  color: grey;
 }
 
 .Dicitionary form {
