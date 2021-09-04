@@ -5,6 +5,7 @@
 }
 section {
   border: 2px gray solid;
+  background: linear-gradient(45deg, #a3a7a7 0%, #bea6b2 90%);
   padding: 10px;
   margin: 30px;
   border-radius: 10px;
