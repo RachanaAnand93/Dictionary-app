@@ -6,9 +6,9 @@
 section {
   border: 2px gray solid;
   background: radial-gradient(
-    321px at 8.3% 75.7%,
-    rgb(221, 221, 221) 0%,
-    rgb(249, 213, 213) 80%
+    circle at 10% 20%,
+    rgb(248, 213, 214) 0%,
+    rgb(243, 242, 229) 90%
   );
   padding: 10px;
   margin: 30px;
