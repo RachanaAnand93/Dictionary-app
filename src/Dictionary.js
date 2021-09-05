@@ -10,7 +10,6 @@ export default function Dicitonary(props) {
   let [photos, setPhotos] = useState(null);
 
   function handleSubmit(response) {
-    //console.log(response.data[0].meanings[0].definitions[0].definition);
     setOutput(response.data[0]);
   }
 

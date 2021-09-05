@@ -4,7 +4,6 @@
   width: 90%;
 }
 section {
-  border: 2px gray solid;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(248, 213, 214) 0%,
