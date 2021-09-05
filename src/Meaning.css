@@ -1,6 +1,6 @@
 .Meaning p {
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   text-align: left;
   font-family: sans-serif;
@@ -24,8 +24,4 @@ h3 {
 .example {
   color: rgb(88, 88, 87);
   margin-top: 8px;
-}
-h4 {
-  font-weight: 300;
-  font-size: 20px;
 }

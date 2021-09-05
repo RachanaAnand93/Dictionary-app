@@ -5,7 +5,6 @@
     rgb(243, 242, 229) 90%
   );
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 15px;
 }
 .App-header {
   font-family: "Hina Mincho", serif;
@@ -62,4 +61,7 @@
 .synonyms li {
   display: inline-block;
   padding-right: 2px;
+}
+.synonyms {
+  list-style: none;
 }
