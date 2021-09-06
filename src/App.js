@@ -4,6 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">📚 DICTIONARY</header>
+
       <Dictionary defaultwords="Ocean" />
       <footer className="App-footer">
         <a

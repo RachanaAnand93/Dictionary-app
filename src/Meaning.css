@@ -24,4 +24,10 @@ h3 {
 .example {
   color: rgb(88, 88, 87);
   margin-top: 8px;
+  font-style: italic;
+}
+h4 {
+  font-size: 20px;
+  padding: 2px 1px 0px 2px;
+  font-style: italic;
 }

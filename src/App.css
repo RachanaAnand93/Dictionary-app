@@ -61,7 +61,5 @@
 .synonyms li {
   display: inline-block;
   padding-right: 2px;
-}
-.synonyms {
-  list-style: none;
+  text-decoration: none;
 }
