@@ -7,10 +7,9 @@ export default function Phonetic(props) {
         return (
           <div key={index}>
             <a href={props.phonetic[0].audio} target="_blank" rel="noreferrer">
-              listen 🔈{" "}
+              ▶️{" "}
             </a>
-            <br />
-            <p>{props.phonetic[0].text}</p>
+            <span className="text">{props.phonetic[0].text}</span>
           </div>
         );
       })}

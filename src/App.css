@@ -42,24 +42,18 @@
 .phonetics {
   text-align: left;
   color: black;
+  padding: 3px 6px 2px 7px;
+  font-size: 18px;
 }
 .phonetics a {
-  border-radius: 20px;
-  border: 1px solid gainsboro;
-  padding: 3px 6px 2px 7px;
-  margin-top: 10px;
   text-decoration: none;
-  transition: all 120ms ease-in-out;
-  background-color: rgb(163, 158, 158);
-  color: black;
-}
-
-.phonetics a:hover {
-  background-color: grey;
-  color: white;
 }
 .synonyms li {
   display: inline-block;
   padding-right: 2px;
   text-decoration: none;
+}
+.pthonetics p {
+  margin-left: 30px;
+  background-color: aliceblue;
 }
